@@ -9,6 +9,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+        public void AR(string sceneName){
+        SceneManager.LoadScene(sceneName);
+    }
+
     public void Exit(){
         Application.Quit();
     }
